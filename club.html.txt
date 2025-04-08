@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Club - Technical Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Technical Club</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>About the Club</h2>
+      <p>The Technical Club focuses on coding, innovation, and hosting tech-related events.</p>
+    </section>
+
+    <section>
+      <h3>Coordinators</h3>
+      <ul>
+        <li>John Doe - Head Coordinator</li>
+        <li>Jane Smith - Assistant Coordinator</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Upcoming Activities</h3>
+      <ul>
+        <li>Hackathon - May 2025</li>
+        <li>Tech Talk - June 2025</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Registration</h3>
+      <a href="registration-form.html?club=technical">Register for Technical Club</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Club Portal</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

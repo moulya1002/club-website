@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Club Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Login</h1>
+  </header>
+
+  <main>
+    <section>
+      <h3>Select Your Role</h3>
+      <form id="login-form">
+        <label>
+          <input type="radio" name="role" value="Super Admin" required> Super Admin
+        </label><br>
+        <label>
+          <input type="radio" name="role" value="Staff"> Staff
+        </label><br>
+        <label>
+          <input type="radio" name="role" value="Student"> Student
+        </label><br>
+        <button type="submit">Login</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Club Portal</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
